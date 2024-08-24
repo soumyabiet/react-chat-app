@@ -5,9 +5,34 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: '#e0e0e0'
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.chatRoot {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  width: 100%;
+}
+
+.chatLeft {
+  display: flex;
+  flex: 0.2;
+  height: 95vh;
+  margin: 10px;
+  flex-direction: column;
+}
+
+.chatRight {
+  display: flex;
+  flex: 0.8;
+  height: 95vh;
+  margin: 10px;
+  flex-direction: column;
+}
+
